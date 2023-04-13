@@ -14,7 +14,7 @@ PDFReader - Reads data from insurance papers
 
 The project runs on flask and the dependencies can be installed via pip.
 
-Steps to follow:
+>>>Steps to follow for **tarp** :
 
 1. Create a virtual environment:
 ```
@@ -37,3 +37,34 @@ pip install -r requirements.py
 SET FLASK_APP=app
 python -m flask run
 ```
+
+>>Steps to follow for **tarpBlockchain** :
+
+1. Create a virtual environment:
+```
+    virtualenv env
+```
+2. Create activate the virtual environment
+
+```
+source PATH/TO/FILE/activate
+```
+3. Install dependencies
+
+```
+pip install -r requirements.py
+```
+
+4. Run application
+
+```
+python3 peer.py
+python3 run_app.py
+```
+
+## Contributors:
+
+1. Pranav Viswanathan
+2. Ajith Suresh Nair
+3. Sanjay Suresh
+4. Athul Ravi
