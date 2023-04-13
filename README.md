@@ -7,4 +7,5 @@ Patients who consult multiple doctors from different hospitals have individual f
 ## Using the project
 
 tarp - Contains code for RFID data collection<br>
-tarpBlockchain - Contains blockchain code
+tarpBlockchain - Contains blockchain code<br>
+PDFReader - Reads data from insurance papers
