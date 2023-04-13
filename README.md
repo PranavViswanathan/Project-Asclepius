@@ -9,3 +9,31 @@ Patients who consult multiple doctors from different hospitals have individual f
 tarp - Contains code for RFID data collection<br>
 tarpBlockchain - Contains blockchain code<br>
 PDFReader - Reads data from insurance papers
+
+## Running the project:
+
+The project runs on flask and the dependencies can be installed via pip.
+
+Steps to follow:
+
+1. Create a virtual environment:
+```
+    virtualenv env
+```
+2. Create activate the virtual environment
+
+```
+source PATH/TO/FILE/activate
+```
+3. Install dependencies
+
+```
+pip install -r requirements.py
+```
+
+4. Run application
+
+```
+SET FLASK_APP=app
+python -m flask run
+```
